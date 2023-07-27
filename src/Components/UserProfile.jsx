@@ -1,7 +1,7 @@
 import React from "react";  
 
 
-function UserProfile() {
+function UserProfile  () {
     return (
         <div>
     <p>User Name</p>;

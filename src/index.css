@@ -1,11 +1,36 @@
 body {
   font-family: sans-serif;
-  margin: 0;
+  margin: 10px;
+  display: inline flex;
+  flex-direction: row;
+
 }
 
 html,
 body,
 #root {
-  height: 100%;
-  width: 100%;
+  min-height: auto;
+
+  display: block;
+
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+li{
+  font-family: 'Courier New', Courier, monospace black;
+}
+
+p{
+  font-family: 'Courier New', Courier, monospace black;
+
 }

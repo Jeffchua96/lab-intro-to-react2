@@ -1,13 +1,13 @@
 import React from 'react';
 
-
-const Post = () => {
+function Post() {
     return (
         <div>
-            <h3>Post Title</h3>
-            <p>Post Body</p>
+            <h3>Posts Title</h3>
+            <li>Posts</li>
         </div>
     );
 }
+
 
 export default Post;
